@@ -1,11 +1,13 @@
-xml 小工具
+#xml 小工具
 
-支持增删改查
+###支持增删改查
+###支持xpath定位节点
 
+````
 Usage: xl.py [options] -f arg1 -p arg2 -k arg3 [-v arg4]
-        python xl.py -f dbuserconfig.xml -p .//db_node[@name='JYGLRAC']//db_user -k text
-        python xl.py -f as_secutrans1.xml -p './/plugin[@lib='fsc_f2hsmdb']//hsmdb/table' -k name -v XXX
-        python xl.py -f as_eall.xml -p .//functions -a "<component dll='s_ls_prodprebusinflow.110' arg=''/>"
+        python xl.py -f xxx.xml -p .//db_node[@name='**']//db_user -k text
+        python xl.py -f xxx.xml -p './/plugin[@lib='**']//hsmdb/table' -k name -v XXX
+        python xl.py -f xxx.xml -p .//functions -a "<component dll='**' arg=''/>"
         
 
 Options:
@@ -20,4 +22,4 @@ Options:
   -n                    output not sort.
   -a ADD_NODE, --append=ADD_NODE
                         append node.
-[localhost.localdomain:hundsun:/home/h
+````
