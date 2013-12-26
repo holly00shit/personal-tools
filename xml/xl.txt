@@ -1,0 +1,5 @@
+<component arg="产品账户日终" dll="s_as_caprodsettflow.10" />
+<component arg="产品资金日终" dll="s_as_ftprodsettflow.10" />
+<component arg="股票收益互换参数" dll="s_as_swapargflow.10" />
+<component arg="股票收益互换公用" dll="s_as_swappubflow.10" />
+<component arg="股票收益互换业务" dll="s_as_swapbusiflow.10" />
